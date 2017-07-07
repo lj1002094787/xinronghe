@@ -72,12 +72,8 @@ body {
 	background: #FFFFFF;
 }
 
-.warp_left li:hover a{
-	color: #89C819;
-}
-
-.li_b {
-	color: #727272;
+.warp_left li:hover .li_b{
+	color: #e0c1a6;
 }
 
 .li_a {
@@ -111,7 +107,7 @@ body {
 }
 
 .warp_right_title a:hover {
-	color: #3AB1FF;
+	color: #e0c1a6;
 }
 
 .warp_right_title span:last-child {

@@ -11,7 +11,6 @@ body {
 	margin: 0 auto;
 	height: 940px;
 	width: 1200px;
-	/*border: 1px solid red;*/
 }
 
 /* 板块左边的内容 */
@@ -19,7 +18,6 @@ body {
 	float: left;
 	height: auto;
 	width: 240px;
-	/*border: 1px solid red;*/
 }
 
 /* 板块左边的标题 */
@@ -28,7 +26,6 @@ body {
 	width: 240px;
 	height: 150px;
 	text-align: center;
-	/*background: ##E0C1A6;*/
 }
 
 /* 板块左边的标题的背景 */
@@ -72,13 +69,10 @@ body {
 	background: #FFFFFF;
 }
 
-.warp_left li:hover a{
-	color: #89C819;
+.warp_left li:hover .li_b{
+	color: #e0c1a6;
 }
 
-.li_b {
-	color: #727272;
-}
 
 .li_a {
 	color: #FFFFFF;
@@ -90,7 +84,6 @@ body {
 
 /* 板块右边的内容 */
 .warp_right {
-	/*border: 1px solid red;*/
 	float: left;
 	height: auto;
 	width: 900px;
@@ -106,7 +99,7 @@ body {
 }
 
 .warp_right_title a:hover {
-	color: red;
+	color: #e0c1a6;
 }
 
 
