@@ -1,0 +1,61 @@
+/* 鑫荣和公告+鑫荣和新闻 */
+
+
+.tips_news {
+	border: 1px solid red;
+	height: 340px;
+	width: 1200px;
+	margin: 35px auto;
+}
+
+/* 鑫荣和公告 */
+.tips_left {
+	float: left;
+	width: 535px;
+	height: 340px;
+}
+
+.bannar {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	background: gold;
+	line-height: 50px;
+}
+
+.bannar1 {
+	float: left;
+	margin-left: 70px;
+	font-size: 18px;
+	color: #d2a578;
+}
+
+.more_con {
+	float: right;
+	margin-right: 30px;
+}
+
+.tips_news_list {
+	margin: 15px 0 15px 30px;
+	height: 260px;
+	width: auto;
+}
+
+.tips_news_list li {
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+	font-size: 14px;
+    color: #6b6b6b;
+    border-bottom:  dotted #d4cfc9;
+}
+
+.tips_news_list li i {
+	display: block;
+	height: 5px;
+	width: 5px;
+	background: #000000;
+	
+}
+
+
