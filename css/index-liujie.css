@@ -1,0 +1,28 @@
+@charset "utf-8";
+.knowledge {
+	margin: 0 auto;
+	width: 1200px;
+	height: 50px;
+	border: 1px solid black;
+	line-height: 50px;
+}
+
+.knowledge p{
+	margin: 0 30px;
+	padding-left:40px ;
+}
+.knowledge b {
+	float: left;
+	font-size: 18px;
+	color: #d2a578;
+}
+
+.knowledge a {
+	float: right;
+	font-size: 16px;
+	color: #282828;
+}
+
+.knowledge a:hover {
+	text-decoration: underline;
+}
