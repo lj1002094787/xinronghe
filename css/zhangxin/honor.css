@@ -1,0 +1,129 @@
+/* 中间版心板块的内容 */
+.warp {
+	margin: 0 auto;
+	height: 940px;
+	width: 1200px;
+}
+
+/* 板块左边的内容 */
+.warp_left {
+	float: left;
+	height: auto;
+	width: 240px;
+}
+
+/* 板块左边的标题 */
+.warp_left h2 {
+	position: relative;
+	width: 240px;
+	height: 150px;
+	text-align: center;
+}
+
+/* 板块左边的标题的背景 */
+.warp_left h2 i {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../../img/zhangxin/health/health-intor-nav.jpg) no-repeat;
+}
+
+/* 板块左边的标题的标题 */
+.warp_left h2 .war_left_title {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+
+.war_left_title p:first-child {
+	font-size: 34px;
+	color: #FFFFFF;
+}
+
+.war_left_title p:last-child {
+	font-size: 24px;
+	color: #EFE0D3;
+}
+
+/* 板块左边的列表 */
+.warp_left ul {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.warp_left li {
+	height: 60px;
+	width: 100%;
+	margin: 5px 0;
+	font-size: 16px;
+	line-height: 60px;
+	background: #FFFFFF;
+}
+
+.warp_left li:hover .li_b {
+	color: #e0c1a6;
+}
+
+.li_a {
+	color: #FFFFFF;
+}
+
+.warp_left li:nth-child(4) {
+	background: #E3C6AD;
+}
+
+
+/* 板块右边的内容 */
+.warp_right {
+	float: left;
+	height: auto;
+	width: 900px;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+.warp_right_title {
+	height: 10px;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #E3E3E3;
+}
+.warp_right_title span:first-child {
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.warp_right_title a:hover {
+	color: #e0c1a6;
+}
+
+.warp_right_title span:last-child {
+	color: #E0C1A6;
+}
+
+
+/* 右边下面的标内容*/
+.w_r_cont {
+	width: 900px;
+	height: 809px;
+}
+
+.w_r_cont li {
+	float: left;
+	margin: 50px 30px 0 55px;
+	width: 350px;
+	height: 330px;
+}
+
+.w_r_cont img {
+	width: 350px;
+	height: 260px;
+}
+
+.w_r_cont li  p {
+	margin-top: 45px;
+	margin-left: 75px;
+	font-size: 20px;
+	color: #878787;
+}

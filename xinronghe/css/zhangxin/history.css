@@ -1,0 +1,289 @@
+<* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FCFCFA;
+}
+/* 中间版心板块的内容 */
+.warp {
+	margin: 0 auto;
+	height: 940px;
+	width: 1200px;
+	/*border: 1px solid red;*/
+}
+
+/* 板块左边的内容 */
+.warp_left {
+	float: left;
+	height: auto;
+	width: 240px;
+	/*border: 1px solid red;*/
+}
+
+/* 板块左边的标题 */
+.warp_left h2 {
+	position: relative;
+	width: 240px;
+	height: 150px;
+	text-align: center;
+	/*background: ##E0C1A6;*/
+}
+
+/* 板块左边的标题的背景 */
+.warp_left h2 i {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../../img/zhangxin/保险简介/health-intor-nav.jpg) no-repeat;
+}
+
+/* 板块左边的标题的标题 */
+.warp_left h2 .war_left_title {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+
+.war_left_title p:first-child {
+	font-size: 34px;
+	color: #FFFFFF;
+}
+
+.war_left_title p:last-child {
+	font-size: 24px;
+	color: #EFE0D3;
+}
+
+/* 板块左边的列表 */
+.warp_left ul {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.warp_left li {
+	height: 60px;
+	width: 100%;
+	margin: 5px 0;
+	font-size: 16px;
+	line-height: 60px;
+	background: #FFFFFF;
+}
+
+.warp_left li:hover a{
+	color: #89C819;
+}
+
+.li_b {
+	color: #727272;
+}
+
+.li_a {
+	color: #FFFFFF;
+}
+
+.warp_left li:nth-child(2) {
+	background: #E3C6AD;
+}
+
+/* 板块右边的内容 */
+.warp_right {
+	/*border: 1px solid red;*/
+	float: left;
+	height: auto;
+	width: 900px;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+.warp_right_title {
+	height: 10px;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.warp_right_title a:hover {
+	color: red;
+}
+
+
+/* 右边下面的标题 */
+.w_r_title {
+	height: 95px;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	line-height: 125px;
+	color: #e0c1a6;
+}
+
+/* 时间轴 */
+.w_r_cont {
+	position: relative;
+	height: 750px;
+	width: 100%;
+}
+
+.w_r_cont ul {
+	position: relative;
+	float: left;
+	margin: 75px 0 0 440px;
+	width: 1px;
+	height: 600px;
+	border-right: 1px solid #e0c1a6;
+}
+
+.w_r_cont ul i {
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    right: -16px;
+    top: -30px;
+    border-radius: 50%;
+    border: 1px solid #e0c1a6;
+}
+
+.w_r_cont ul li {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: -8px;
+	background: #e0c1a6;
+	margin-top: 100px;
+	border-radius: 50%;
+}
+
+/* 时间轴里面的图片内容 */
+.w_r_cont1 {
+	position: absolute;
+	margin-top: 60px;
+	width: 450px;
+	height: 190px;
+}
+
+.w_r_cont1 .w_r_cont_pic {
+	height: 185px;
+	width: 300px;
+	text-align: center;
+}
+
+/* 时间轴里面所有的图片 */
+.w_r_cont img{
+	height: 140px;
+	width: 215px;
+}
+
+.w_r_cont1 p {
+	margin: 30px 0;
+	font-size: 16px;
+	color: #909090;
+}
+
+.w_r_cont1 i {
+    position: absolute;
+    height: 1px;
+    top: 125px;
+    right: 0px;
+    width: 150px;
+    border-top: 1px solid #e0c1a6;
+}
+
+
+/* 时间轴里面的图片内容2 */
+.w_r_cont2 {
+	position: absolute;
+	margin-top: 210px;
+	width: 450px;
+	height: 190px;
+	right: 0;
+}
+
+.w_r_cont2 .w_r_cont_pic2 {
+	height: 185px;
+	width: 300px;
+	float: right;
+	text-align: center;
+}
+
+.w_r_cont2 p {
+	margin: 25px 0;
+	font-size: 16px;
+	color: #909090;
+}
+
+.w_r_cont2 i {
+    position: absolute;
+    height: 1px;
+    top: 95px;
+    left: 0px;
+    width: 150px;
+    border-top: 1px solid #e0c1a6;
+}
+
+/* 时间轴里面的图片内容3 */
+.w_r_cont3 {
+	position: absolute;
+	margin-top: 330px;
+	width: 450px;
+	height: 190px;
+	left: 0;
+}
+
+.w_r_cont3 .w_r_cont_pic3 {
+	height: 185px;
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+
+.w_r_cont3 p {
+	margin: 25px 0;
+	font-size: 16px;
+	color: #909090;
+}
+
+.w_r_cont3 i {
+    position: absolute;
+    height: 1px;
+    top: 95px;
+    right: 0px;
+    width: 150px;
+    border-top: 1px solid #e0c1a6;
+}
+
+/* 时间轴里面的图片内容4 */
+.w_r_cont4 {
+	position: absolute;
+	margin-top: 450px;
+	width: 450px;
+	height: 190px;
+	right: 0;
+}
+
+.w_r_cont4 .w_r_cont_pic4 {
+	margin-top: 40px;
+	height: 185px;
+	width: 300px;
+	float: right;
+	text-align: center;
+}
+
+.w_r_cont4 p {
+	margin: 25px 0;
+	font-size: 16px;
+	color: #909090;
+}
+
+.w_r_cont4 i {
+    position: absolute;
+    height: 1px;
+    top: 95px;
+    left: 0px;
+    width: 150px;
+    border-top: 1px solid #e0c1a6;
+}
+
