@@ -1,0 +1,258 @@
+@charset "UTF-8";
+body {
+	background-color: #FCFCFA;
+}
+
+
+/* 中间版心板块的内容 */
+
+.warp {
+	margin: 0 auto;
+	height: 940px;
+	width: 1200px;
+	/*border: 1px solid red;*/
+}
+
+
+/* 板块左边的内容 */
+
+.warp_left {
+	float: left;
+	height: auto;
+	width: 240px;
+	/*border: 1px solid red;*/
+}
+
+
+/* 板块左边的标题 */
+
+.warp_left h2 {
+	position: relative;
+	width: 240px;
+	height: 150px;
+	text-align: center;
+	/*background: ##E0C1A6;*/
+}
+
+
+/* 板块左边的标题的背景 */
+
+.warp_left h2 i {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../../img/zhangxin/保险简介/health-intor-nav.jpg) no-repeat;
+}
+
+
+/* 板块左边的标题的标题 */
+
+.warp_left h2 .war_left_title {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+
+.war_left_title p:first-child {
+	font-size: 34px;
+	color: #fff;
+}
+
+.war_left_title p:last-child {
+	font-size: 24px;
+	color: #efe0d3;
+}
+
+
+/* 板块左边的列表 */
+
+.warp_left ul {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.warp_left li {
+	height: 60px;
+	width: 100%;
+	margin: 5px 0;
+	font-size: 16px;
+	line-height: 60px;
+	background: #fff;
+}
+
+.warp_left li:hover a {
+	color: #e0c1a6;
+}
+
+.li_b {
+	color: #727272;
+}
+
+.li_a {
+	color: #fff;
+}
+
+.warp_left li:nth-child(2) {
+	background: #e3c6ad;
+	color: #fff;
+}
+
+
+/* 板块右边的内容 */
+
+.warp_right {
+	/*border: 1px solid red;*/
+	float: left;
+	height: 800px;
+	width: 900px;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+.warp_right_title {
+	height: 10px;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.warp_right_title span:first-child {
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.warp_right_title a {
+	color: #a2a2a2;
+}
+
+.warp_right_title a:hover {
+	color: #e0c1a6;
+}
+
+.warp_right_title span:last-child {
+	color: #e0c1a6;
+}
+
+
+/* 右边下面的标题 */
+
+.w_r_title {
+	height: 95px;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	line-height: 125px;
+	color: #e0c1a6;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+
+/* 右边的内容 */
+
+.warp_right_cont {
+	margin-top: 30px;
+	height: 240px;
+	width: 902px;
+}
+
+.w_r_c_left {
+	float: left;
+	height: 240px;
+	width: 330px;
+}
+
+.w_r_c_right {
+	float: right;
+	height: 240px;
+	width: 540px;
+}
+
+.w_r_c_right h2 {
+	margin: 10px 0;
+	font-size: 20px;
+	color: #909090;
+}
+
+.w_r_c_right p {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+.w_r_c_right p span:first-child {
+	margin-right: 25px;
+}
+
+.w_r_c_right>span {
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 35px;
+	color: #b4b4b4;
+	line-height: 30px;
+}
+
+
+/* 内容2 */
+
+.warp_right_cont2 {
+	margin-top: 80px;
+	width: 100%;
+	height: auto;
+}
+
+.warp_right_cont2 li {
+	margin-top: 30px;
+	height: 40px;
+	width: 100%;
+	border-bottom: 1.5px dotted #d3d3d3;
+}
+
+.warp_right_cont2 a {
+	font-size: 18px;
+	color: #909090;
+	float: left;
+}
+
+.warp_right_cont2 a:hover {
+	color: #e0c1a6;
+}
+
+.warp_right_cont2 span {
+	float: right;
+	font-size: 18px;
+	color: #909090;
+}
+
+
+/* 分页 */
+
+.page {
+	height: 30px;
+	width: 100%;
+	margin-left: 290px;
+	margin-top: 250px;
+}
+
+.page li {
+	float: left;
+}
+
+.page a {
+	margin: 30px 10px;
+	padding: 4px 10px;
+	color: #909090;
+	border: 1px solid #b4b4b4;
+	border-radius: 2px;
+}
+
+.page a:hover {
+	color: #e0c1a6;
+	border: 1px solid #e0c1a6;
+}
+
+.page li:nth-child(2) a{
+	color: #e0c1a6;
+	border: 1px solid #e0c1a6;
+	cursor: text;
+}
