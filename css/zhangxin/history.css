@@ -1,15 +1,7 @@
-<* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	background-color: #FCFCFA;
-}
 /* 中间版心板块的内容 */
 .warp {
 	margin: 0 auto;
-	height: 940px;
+	height: 990px;
 	width: 1200px;
 }
 
@@ -33,7 +25,7 @@ body {
 	display: block;
 	height: 100%;
 	width: 100%;
-	background: url(../../img/zhangxin/保险简介/health-intor-nav.jpg) no-repeat;
+	background: url(../../img/zhangxin/health/health-intor-nav.jpg) no-repeat;
 }
 
 /* 板块左边的标题的标题 */

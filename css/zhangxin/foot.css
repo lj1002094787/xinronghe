@@ -1,0 +1,78 @@
+.footer {
+	width: 100%;
+	height: 240px;
+	margin-top: 25px;
+	background: #DDBC9A;
+	display: inline-block;
+}
+
+.footer .footer_content {
+	border-bottom: 1px solid #fff;
+}
+
+.footer .footer_content .footer_left {
+	position: relative;
+	float: left;
+	width: 675px;
+	height: 200px;
+}
+
+.footer .footer_content .fc {
+	position: absolute;
+	top: 36px;
+	right: 0;
+	width: 485px;
+	height: 115px;
+	border-right: 1px solid #fff;
+}
+
+.footer .footer_content .fc li {
+	float: left;
+	margin: 0 35px 0 0;
+}
+
+.footer .footer_content .fc li a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+
+.footer .footer_content .footer_left p {
+	position: absolute;
+	bottom:90px;
+     right: 56px;
+     color: #FFFFFF;
+     font-size: 16px;
+}
+
+.footer .footer_content .footer-right {
+	float: left;
+}
+
+.footer .footer_right li {
+	float: left;
+	margin: 20px 40px 0 40px;
+}
+.footer .footer_right li:last-child {
+margin-right: 0;
+}
+.footer .footer_right li:first-child {
+	margin-right: 0;
+	
+}
+.footer .footer_right li:first-child p {
+	margin-top: 56px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.footer .footerest {
+	clear: both;
+	width: 600px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
