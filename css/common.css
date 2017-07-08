@@ -153,7 +153,6 @@ a {
 	width: 1200px;
 	height: 200px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 
@@ -167,15 +166,16 @@ a {
 .header_nav .header_nav_first img {
 	position: absolute;
 	top: 25px;
-	left: 0;
+	left: 48px;
 }
 
 .header_nav .header_nav_first .ilj {
 	position: absolute;
 	top: 44px;
-	right: 0;
+	right: 36px;
 	font-size: 24px;
 	font-family: "微软雅黑";
+	color: #191919;
 }
 
 
@@ -185,19 +185,25 @@ a {
 /*第二层开始*/
 
 .header_nav .header_nav_scond {
-    position: absolute;
-    top: 95px;
-    left: 440px;
-    width: 1110px;
-    height: 28px;
+	position: absolute;
+	top: 95px;
+	left: 490px;
+	width: 1024px;
+	height: 28px;
 }
 
-.header_nav .header_nav_scond .hns {
+.header_nav .header_nav_scond p {
 	display: inline-block;
 	font-size: 16px;
 	font-family: "微软雅黑";
+	color: #565656;
 }
 
+.header_nav_scond img{
+	position: absolute;
+	top:6px;
+	right: 10px;
+}
 .header_nav .header_nav_scond input {
 	float: right;
 	position: relative;
@@ -223,21 +229,33 @@ a {
 
 .header_nav .header_nav_thrid {
 	position: absolute;
-	top: 140px;
+	top: 152px;
 	width: 1200px;
 }
 
 .header_nav_thrid li {
 	float: left;
-	width: 120px;
+	height: 14px;
 	text-align: center;
+}
+.header_nav_thrid li:first-child a{
+	color: #c09f82;
+	border-right: 1px solid #d0d0d0;
+}
+.header_nav_thrid li:last-child a {
+	border-right: none;
 }
 
 .header_nav_thrid a {
 	display: block;
-	color: #686868;
+	width: 132px;
+	color: #191919;
 	font-size: 16px;
 	font-family: "微软雅黑";
+	border-right: 1px solid #d0d0d0;
+}
+.header_nav_thrid a:hover{
+	color: #c09f82;
 }
 
 .header_nav_thrid li .hnt {
