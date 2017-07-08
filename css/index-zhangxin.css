@@ -1,8 +1,5 @@
 /* 鑫荣和公告+鑫荣和新闻 */
-
-
 .tips_news {
-	border: 1px solid red;
 	height: 340px;
 	width: 1200px;
 	margin: 35px auto;
@@ -36,7 +33,7 @@
 }
 
 .tips_news_list {
-	margin: 15px 0 15px 30px;
+	margin: 20px 0 15px 30px;
 	height: 260px;
 	width: auto;
 }
@@ -51,11 +48,135 @@
 }
 
 .tips_news_list li i {
-	display: block;
+	display: inline-block;
 	height: 5px;
 	width: 5px;
-	background: #000000;
-	
+	margin-right: 10px;
+	background: #898989;
+	border-radius: 50%;
+}
+
+.tips_news_list li a {
+	height: auto;
+	width: 230px;
+	margin-right: 10px;
+}
+
+.tips_news_list li a:hover {
+	color: #FF0000;
+}
+
+.tips_news_list1 li a:hover {
+	color: #FF0000;
+}
+
+.tips_news_list li span {
+	float: right;
+}
+
+/* 板块右边的内容 */
+.tips_right {
+	float: right;
+	width: 645px;
+	height: 340px;
+	background: #f6efe7;
+}
+
+.news_content_list {
+	display: block;
+	width: 100%;
+	height: 290px;
+}
+
+.news_content_img {
+    position: relative;
+    float: left;
+    width: 286px;
+    height: 238px;
+    margin: 25px 0 15px 20px;
+}
+
+.news_content_list img {
+	width: 100%;
+	height: 100%;
+}
+
+.news_content_img:hover p{
+	display: block;
+}
+
+.news_content_img p {
+	position: absolute;
+	display: none;
+	height: 30px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin-top: 115px;
+}
+
+.tips_news_list1 {
+	width: 300px;
+	float: right;
+	margin: 15px 8px 15px 25px;
+	height: 260px;
 }
 
 
+.tips_news_list1 li {
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+	font-size: 14px;
+    color: #6b6b6b;
+    border-bottom:  dotted #d4cfc9;
+}
+
+.tips_news_list1 li:last-child {
+	border-bottom: none;
+}
+
+.tips_news_list li:last-child {
+	border-bottom: none;
+}
+
+.tips_news_list1 li i {
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+	margin-right: 10px;
+	background: #898989;
+	border-radius: 50%;
+}
+
+.tips_news_list1 li a {
+	height: auto;
+	width: 230px;
+	margin-right: 10px;
+}
+
+.tips_news_list1 li span {
+	float: right;
+}
+
+.news_content_list p span {
+	display: block;
+	height: 30px;
+	width: 20px;
+	font-size: 20px;
+	background: #565656;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.news_content_list p span:hover {
+	cursor: pointer;
+}
+
+.news_content_list p .span_left {
+	float: left;
+}
+
+.news_content_list p .span_right {
+	float: right;
+}
