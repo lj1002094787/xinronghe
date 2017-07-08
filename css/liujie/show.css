@@ -8,7 +8,7 @@ body {
 
 .warp {
 	margin: 0 auto;
-	height: 2240px;
+	height: 940px;
 	width: 1200px;
 }
 
@@ -38,7 +38,7 @@ body {
 	display: block;
 	height: 100%;
 	width: 100%;
-	background: url(../../img/zhangxin/保险简介/health-intor-nav.jpg) no-repeat;
+	background: url(../../img/tangzao/xinwen_05.jpg) no-repeat;
 }
 
 
@@ -101,7 +101,7 @@ body {
 .warp_right {
 	/*border: 1px solid red;*/
 	float: left;
-	height: 1299px;
+	height: 1220px;
 	width: 900px;
 	margin-top: 15px;
 	margin-left: 60px;
