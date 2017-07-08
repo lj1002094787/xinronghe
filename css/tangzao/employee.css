@@ -54,6 +54,9 @@
 	line-height: 60px;
 	background: #fff;
 }
+.news .news_center .com_news a {
+	color: #727272;
+}
 .news .news_center .com_yuan {
 	height: 60px;
 	font-size: 16px;
@@ -61,6 +64,9 @@
 	text-align: center;
 	line-height: 60px;
 	background: #E0C1A6;
+}
+.news .news_center .com_yuan a {
+	color: #fff;
 }
 /* 新闻中心 左边部分写完 */
 /* 右边部分 */

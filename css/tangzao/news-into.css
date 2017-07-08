@@ -28,7 +28,7 @@
 	width: 185px;
 	height: 80px;
 }
-.news .news_center .news_cen h2 {
+.news .news_center .news_cen h2 a {
 	font-size: 34px;
 	color: #fff;
 }
