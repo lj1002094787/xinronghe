@@ -41,7 +41,7 @@ body {
 	display: block;
 	height: 100%;
 	width: 100%;
-	background: url(../../img/zhangxin/保险简介/health-intor-nav.jpg) no-repeat;
+	background: url(../../img/tangzao/xinwen_05.jpg) no-repeat;
 }
 
 
@@ -102,7 +102,6 @@ body {
 /* 板块右边的内容 */
 
 .warp_right {
-	/*border: 1px solid red;*/
 	float: left;
 	height: 800px;
 	width: 900px;
