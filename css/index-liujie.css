@@ -1,16 +1,20 @@
 @charset "utf-8";
+
+/* 疗养知识 */
+
 .knowledge {
 	margin: 0 auto;
 	width: 1200px;
 	height: 50px;
-	border: 1px solid black;
 	line-height: 50px;
+	background: url(../img/tangzao/index_knowledge_title.jpg) no-repeat;
 }
 
-.knowledge p{
+.knowledge p {
 	margin: 0 30px;
-	padding-left:40px ;
+	padding-left: 40px;
 }
+
 .knowledge b {
 	float: left;
 	font-size: 18px;
@@ -25,4 +29,61 @@
 
 .knowledge a:hover {
 	text-decoration: underline;
+}
+
+.knowledge_content {
+	margin: 0 auto;
+	width: 1200px;
+	height: 530px;
+}
+
+.knowledge_content li {
+	float: left;
+	padding: 32px 0;
+	width: 570px;
+}
+
+.knowledge_content span {
+	display: block;
+	float: right;
+	margin-top: 50px;
+	width: 360px;
+}
+
+.knowledge_content a {
+	font-size: 16px;
+	color: #282828;
+}
+
+.knowledge_content a:hover {
+	color: #d2a578;
+}
+
+
+/* 技师风采 */
+
+.star_img {
+	position: relative;
+	margin: 0 auto;
+	padding: 36px 0;
+	width: 1200px;
+}
+
+.star_img img {
+	float: left;
+}
+
+.star_img span {
+	position: absolute;
+	line-height: 28px;
+	top: 132px;
+	left: 40px;
+	width: 28px;
+	font-size: 28px;
+	color: #fff;
+}
+
+.star_img li {
+	float: left;
+	margin-left: 38px;
 }
