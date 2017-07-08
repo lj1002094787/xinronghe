@@ -1,0 +1,465 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xrh_company {
+	width: 1200px;
+	height: 580px;
+	margin: 0 auto;
+}
+.xrh_company .xrh_company_cond {
+	float: left;
+	width: 775px;
+	height: 588px;
+}
+.xrh_company .xrh_company_cond h2 {
+	position: relative;
+	width: 335px;
+	height: 45px;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 45px;
+	color: #D6AD84;
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+.xrh_company .xrh_company_cond h2 i {
+	position: absolute;
+	top: 4px;
+	left: -8px;
+	display: inline-block;
+	width: 91px;
+	height: 45px;
+	z-index: -3;
+	background: url(../../img/tangzao/index_search.png) no-repeat ;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips {
+	float: left;
+	width: 775px;
+	height: 500px;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips img {
+	float: left;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .xrh_con_con {
+	position: relative;
+	float: left;
+	width: 380px;
+	height: 345px;
+	margin-left: 30px;
+} 
+.xrh_company .xrh_company_cond .xrh_company_tips .xct {
+	position: relative;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: #333;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .xct i {
+    position: absolute; 
+	top: -10px;
+	left: -4px;
+	display: inline-block;
+	width: 91px;
+	height: 45px;
+	z-index: -3;
+	background: url(../img/yun_05.jpg) no-repeat ;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .content {
+	font-size: 16px;
+	color: #626060;
+	line-height: 35px;
+	text-indent: 2em;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .more {
+	float: left;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: #9d9d9d;
+	font-size:12px ;
+}
+
+.xrh_company .xrh_company_cond .xrh_company_tips .xrh_con  .hot_online {
+	float: left;
+	margin-top: 51px;
+	margin-left: 30px;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .xrh_con  .hot_online img {
+	display: inline-block;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .xrh_con  .hot_online .online {
+	display: inline-block;
+	margin: 4px 20px;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .xrh_con  .hot_online .online  .online_tips {
+	color: #202020;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.xrh_company .xrh_company_cond .xrh_company_tips .xrh_con  .hot_online .online .online_tel {
+	color: red;
+	font-size: 36px;
+}
+/*左边部分完成*/
+.xrh_company .service {
+	float: right;
+	width: 423px;
+    height: 535px;
+    border: 1px solid red;
+    margin-top: 49px;
+}
+.xrh_company .service .service_content li {
+	float: left;
+	width: 390px;
+	border-bottom: 1px solid #D6AD84;
+	padding: 10px 0;
+	margin-left: 20px;
+}
+.xrh_company .service .service_content li:last-child {
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+.xrh_company .service .service_content .sc_tips img {
+	float: left;
+}
+.xrh_company .service .service_content .sc_right_tips  {
+	position: relative;
+	width: 250px;
+	height: 125px;
+	float: right;
+	margin-top: 10px;
+}
+.xrh_company .service .service_content .sc_right_tips:last-child {
+	height: 95px;
+}
+.xrh_company .service .service_content .sc_right_tips p a {
+	font-size: 18px;
+	color: #D6AD84 ;
+	text-decoration: underline;
+}
+.xrh_company .service .service_content .sc_right_tips img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+/* 鑫荣和公告+鑫荣和新闻 */
+.tips_news {
+	height: 340px;
+	width: 1200px;
+	margin: 35px auto;
+}
+
+/* 鑫荣和公告 */
+.tips_left {
+	float: left;
+	width: 535px;
+	height: 340px;
+	background: #f6efe7;
+}
+
+.bannar {
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	background: url(../img/tangzao/title.jpg);
+	line-height: 50px;
+}
+
+.bannar1 {
+	float: left;
+	margin-left: 70px;
+	font-size: 18px;
+	color: #d2a578;
+}
+
+.more_con {
+	float: right;
+	margin-right: 30px;
+}
+
+.tips_news_list {
+	margin: 20px 0 15px 30px;
+	height: 260px;
+	width: auto;
+}
+
+.tips_news_list li {
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+	font-size: 14px;
+    color: #6b6b6b;
+    border-bottom:  dotted #d4cfc9;
+}
+
+.tips_news_list li i {
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+	margin-right: 10px;
+	background: #898989;
+	border-radius: 50%;
+}
+
+.tips_news_list li a {
+	height: auto;
+	width: 230px;
+	margin-right: 10px;
+}
+
+.tips_news_list li a:hover {
+	color: #FF0000;
+}
+
+.tips_news_list1 li a:hover {
+	color: #FF0000;
+}
+
+.tips_news_list li span {
+	float: right;
+}
+
+/* 板块右边的内容 */
+.tips_right {
+	float: right;
+	width: 645px;
+	height: 340px;
+	background: #f6efe7;
+}
+
+.news_content_list {
+	display: block;
+	width: 100%;
+	height: 290px;
+}
+
+.news_content_img {
+    position: relative;
+    float: left;
+    width: 286px;
+    height: 238px;
+    margin: 25px 0 15px 20px;
+}
+
+.news_content_list img {
+	width: 100%;
+	height: 100%;
+}
+
+.news_content_img:hover p{
+	display: block;
+}
+
+.news_content_img p {
+	position: absolute;
+	display: none;
+	height: 30px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin-top: 104px;
+}
+
+.tips_news_list1 {
+	width: 300px;
+	float: right;
+	margin: 15px 8px 15px 25px;
+	height: 260px;
+}
+
+
+.tips_news_list1 li {
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+	font-size: 14px;
+    color: #6b6b6b;
+    border-bottom:  dotted #d4cfc9;
+}
+
+.tips_news_list1 li:last-child {
+	border-bottom: none;
+}
+
+.tips_news_list li:last-child {
+	border-bottom: none;
+}
+
+.tips_news_list1 li i {
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+	margin-right: 10px;
+	background: #898989;
+	border-radius: 50%;
+}
+
+.tips_news_list1 li a {
+	height: auto;
+	width: 230px;
+	margin-right: 10px;
+}
+
+.tips_news_list1 li span {
+	float: right;
+}
+
+.news_content_list p span {
+	display: block;
+	height: 30px;
+	width: 20px;
+	font-size: 20px;
+	background: #565656;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.news_content_list p span:hover {
+	cursor: pointer;
+}
+
+.news_content_list p .span_left {
+	float: left;
+}
+
+.news_content_list p .span_right {
+	float: right;
+}
+
+
+/* 疗养知识 */
+
+.knowledge {
+	margin: 0 auto;
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../../img/tangzao/index_knowledge_title.jpg) no-repeat;
+}
+
+.knowledge p {
+	margin: 0 30px;
+	padding-left: 40px;
+}
+
+.knowledge b {
+	float: left;
+	font-size: 18px;
+	color: #d2a578;
+}
+
+.knowledge a {
+	float: right;
+	font-size: 16px;
+	color: #282828;
+}
+
+.knowledge a:hover {
+	text-decoration: underline;
+}
+
+.knowledge_content {
+	margin: 0 auto;
+	width: 1200px;
+	height: 530px;
+}
+
+.knowledge_content li {
+	float: left;
+	padding: 32px 0;
+	width: 570px;
+}
+
+.knowledge_content span {
+	display: block;
+	float: right;
+	margin-top: 50px;
+	width: 360px;
+}
+
+.knowledge_content a {
+	font-size: 16px;
+	color: #282828;
+}
+
+.knowledge_content a:hover {
+	color: #d2a578;
+}
+
+
+/* 技师风采 */
+
+.star_img {
+	position: relative;
+	margin: 0 auto;
+	padding: 36px 0;
+	width: 1200px;
+}
+
+.star_img img {
+	float: left;
+}
+
+.star_img span {
+	position: absolute;
+	line-height: 28px;
+	top: 132px;
+	left: 40px;
+	width: 28px;
+	font-size: 28px;
+	color: #fff;
+}
+
+.star_img li {
+	float: left;
+	margin-left: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
