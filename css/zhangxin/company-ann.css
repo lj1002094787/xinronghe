@@ -69,11 +69,11 @@
 	color: #e0c1a6;
 }
 
-.li_a {
+.li_a{
 	color: #FFFFFF;
 }
 
-.warp_left li:nth-child(2) {
+.warp_left li:nth-child(1) {
 	background: #E3C6AD;
 }
 

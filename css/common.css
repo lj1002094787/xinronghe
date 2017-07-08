@@ -199,11 +199,12 @@ a {
 	color: #565656;
 }
 
-.header_nav_scond img{
+.header_nav_scond img {
 	position: absolute;
-	top:6px;
+	top: 6px;
 	right: 10px;
 }
+
 .header_nav .header_nav_scond input {
 	float: right;
 	position: relative;
@@ -238,10 +239,12 @@ a {
 	height: 14px;
 	text-align: center;
 }
-.header_nav_thrid li:first-child a{
+
+.header_nav_thrid li:first-child a {
 	color: #c09f82;
 	border-right: 1px solid #d0d0d0;
 }
+
 .header_nav_thrid li:last-child a {
 	border-right: none;
 }
@@ -254,7 +257,8 @@ a {
 	font-family: "微软雅黑";
 	border-right: 1px solid #d0d0d0;
 }
-.header_nav_thrid a:hover{
+
+.header_nav_thrid a:hover {
 	color: #c09f82;
 }
 
